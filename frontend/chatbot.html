@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Farmer Connect - SmartAgri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar container">
+    <div class="brand">🌾 SmartAgri</div>
+    <div class="nav-actions">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/mandi.html">Mandi Prices</a>
+      <a class="nav-link" href="/weather.html">Weather</a>
+      <a class="nav-link" href="/tips.html">Knowledge Hub</a>
+    </div>
+  </nav>
+
+  <main class="container page">
+    <h2>Farmer Connect (Static Advisor)</h2>
+
+    <div class="chatbox card">
+      <div id="chat-log" class="chat-log"></div>
+      <div class="chat-controls">
+        <input id="chat-input" placeholder="Ask: e.g., 'When to irrigate wheat?'" />
+        <button id="chat-send" class="btn primary">Send</button>
+      </div>
+    </div>
+
+    <p style="margin-top:12px;color:#555">This is a simple static Q&A demo (answers pulled from pre-defined list). Shows concept of farmer support.</p>
+  </main>
+
+  <footer class="footer container">© <span id="year5"></span> SmartAgri</footer>
+
+  <script src="js/chatbot.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

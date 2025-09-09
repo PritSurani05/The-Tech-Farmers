@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather - SmartAgri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar container">
+    <div class="brand">🌾 SmartAgri</div>
+    <div class="nav-actions">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/mandi.html">Mandi Prices</a>
+      <a class="nav-link" href="/tips.html">Knowledge Hub</a>
+      <a class="nav-link" href="/chatbot.html">Farmer Connect</a>
+    </div>
+  </nav>
+
+  <main class="container page">
+    <h2>Weather & Irrigation Advice</h2>
+    <div class="weather-box card">
+      <input id="city-input" placeholder="Enter city (e.g., Ahmedabad)" />
+      <button id="check-weather" class="btn primary">Check</button>
+      <div id="weather-result" class="weather-result"></div>
+    </div>
+
+    <div class="advice card" id="advice-box" style="margin-top:18px;display:none;">
+      <h3>Advice</h3>
+      <div id="advice-content"></div>
+    </div>
+  </main>
+
+  <footer class="footer container">© <span id="year3"></span> SmartAgri</footer>
+
+  <script src="js/weather.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

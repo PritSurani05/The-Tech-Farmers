@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mandi Prices - SmartAgri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <nav class="navbar container">
+    <div class="brand">🌾 SmartAgri</div>
+    <div class="nav-actions">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/weather.html">Weather</a>
+      <a class="nav-link" href="/tips.html">Knowledge Hub</a>
+      <a class="nav-link" href="/chatbot.html">Farmer Connect</a>
+    </div>
+  </nav>
+
+  <main class="container page">
+    <h2>Mandi Prices</h2>
+
+    <div class="controls">
+      <input id="search-input" placeholder="Search crop or location..." />
+      <select id="crop-select"><option value="">All Crops</option></select>
+      <button id="refresh-btn" class="btn">Refresh</button>
+    </div>
+
+    <div class="grid">
+      <div class="table-wrap">
+        <table class="styled-table" id="mandi-table">
+          <thead>
+            <tr><th>Crop</th><th>Price (₹)</th><th>Location</th><th>Date</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="chart-wrap card">
+        <h3>Price Trend</h3>
+        <canvas id="priceChart" height="220"></canvas>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer container">© <span id="year2"></span> SmartAgri</footer>
+
+  <script src="js/mandi.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

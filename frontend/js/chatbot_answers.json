@@ -1,0 +1,8 @@
+{
+  "answers": [
+    { "q": "when to irrigate wheat", "a": "Irrigate when soil moisture drops below 60% or if no rain for 7 days. Prefer early morning or late evening." },
+    { "q": "how to control pests", "a": "Use recommended pesticides as per crop, practice crop rotation and remove infected plants early." },
+    { "q": "how to store harvested crops", "a": "Dry properly, store in ventilated, clean and moisture-free containers; check for pests regularly." },
+    { "q": "best fertilizer for maize", "a": "Balanced NPK fertilizers; perform soil test for exact recommendation." }
+  ]
+}

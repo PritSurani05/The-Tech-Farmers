@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SmartAgri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar container">
+    <div class="brand">🌾 <span class="brand-title">SmartAgri</span></div>
+    <div class="nav-actions">
+      <button id="lang-toggle" class="btn small">हिंदी</button>
+      <a class="nav-link" href="/mandi.html">Mandi Prices</a>
+      <a class="nav-link" href="/weather.html">Weather</a>
+      <a class="nav-link" href="/tips.html">Knowledge Hub</a>
+      <a class="nav-link" href="/chatbot.html">Farmer Connect</a>
+    </div>
+  </nav>
+
+  <header class="hero container">
+    <div class="hero-left">
+      <h1 data-i18n="title">Smart Agriculture Support</h1>
+      <p data-i18n="subtitle">Mandi rates, weather advice and farmer tips — simple and effective.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="/mandi.html" data-i18n="view_mandi">View Mandi Prices</a>
+        <a class="btn outline" href="/weather.html" data-i18n="check_weather">Check Weather</a>
+      </div>
+    </div>
+    <div class="hero-right card">
+      <h3 data-i18n="at_glance">At a glance</h3>
+      <ul>
+        <li data-i18n="glance_1">Mandi price visualization</li>
+        <li data-i18n="glance_2">Weather-based irrigation advice</li>
+        <li data-i18n="glance_3">Farmer-friendly knowledge hub</li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="features container">
+    <article class="feature">
+      <div class="f-icon">📈</div>
+      <h4 data-i18n="feature1">Mandi Prices</h4>
+      <p data-i18n="feature1_desc">Visual trends and quick search to pick best selling time & mandi.</p>
+    </article>
+    <article class="feature">
+      <div class="f-icon">☁️</div>
+      <h4 data-i18n="feature2">Weather Advice</h4>
+      <p data-i18n="feature2_desc">Irrigation suggestions based on weather data.</p>
+    </article>
+    <article class="feature">
+      <div class="f-icon">💬</div>
+      <h4 data-i18n="feature3">Farmer Connect</h4>
+      <p data-i18n="feature3_desc">Ask quick farming questions — static advisor demo.</p>
+    </article>
+  </section>
+
+  <footer class="footer container">
+    <div>© <span id="year"></span> SmartAgri — Hackathon Demo</div>
+  </footer>
+
+  <script src="js/translations.json" type="application/json"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

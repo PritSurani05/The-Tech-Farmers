@@ -1,0 +1,52 @@
+:root{
+  --accent: #2bb673;
+  --accent-dark:#1f8a50;
+  --muted:#6b7280;
+  --card:#ffffff;
+}
+*{box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{margin:0;background:linear-gradient(180deg,#f0fff4,#f5f9ff);color:#073b2b}
+.container{max-width:1000px;margin:0 auto;padding:18px}
+.navbar{display:flex;justify-content:space-between;align-items:center;background:var(--card);padding:10px 18px;border-radius:10px;box-shadow:0 6px 20px rgba(10,20,10,0.05)}
+.brand-title{font-weight:700;color:var(--accent-dark)}
+.nav-actions{display:flex;gap:10px;align-items:center}
+.nav-link{color:#164a2f;text-decoration:none;font-weight:600;padding:8px 10px;border-radius:8px}
+.nav-link:hover{background:#ebfff0}
+.btn{padding:8px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:600; text-decoration: none}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-dark));color:white}
+.btn.outline{background:transparent;border:2px solid var(--accent);color:var(--accent-dark)}
+.btn.small{padding:6px 8px;font-size:14px}
+.hero{display:flex;gap:24px;align-items:center;margin-top:18px}
+.hero-left{flex:1}
+.hero-right{flex:1}
+.card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 10px 30px rgba(2,48,23,0.04)}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:18px}
+.feature{background:linear-gradient(180deg,#fff,#f9fff9);padding:18px;border-radius:12px;text-align:center}
+.f-icon{font-size:28px;margin-bottom:8px}
+.page{padding:22px 0}
+.controls{display:flex;gap:10px;align-items:center;margin:12px 0}
+.controls input, .controls select{padding:10px;border-radius:8px;border:1px solid #e3e9e6}
+.grid{display:grid;grid-template-columns:1fr 380px;gap:18px}
+.table-wrap{background:var(--card);padding:10px;border-radius:8px}
+.styled-table{width:100%;border-collapse:collapse}
+.styled-table thead tr{background:linear-gradient(90deg,var(--accent),var(--accent-dark));color:white}
+.styled-table th, .styled-table td{padding:10px;text-align:left}
+.styled-table tbody tr:nth-child(even){background:#f6fff5}
+.chart-wrap{padding:12px}
+.footer{padding:20px 0;text-align:center;color:var(--muted)}
+.weather-box input{width:60%;padding:10px;border-radius:8px;border:1px solid #e3e9e6;margin-bottom:8px}
+.weather-result{margin-top:12px;padding:14px;border-radius:10px;background:var(--card);box-shadow:0 6px 18px rgba(3,59,27,0.04)}
+.tips-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:12px}
+.tip-card{padding:14px;border-radius:12px;background:linear-gradient(180deg,#fff,#f7fff7)}
+.chatbox{padding:12px;border-radius:10px}
+.chat-log{height:260px;overflow:auto;border:1px solid #eee;padding:10px;border-radius:8px;background:#fafafa}
+.chat-row{margin:8px 0;display:flex}
+.chat-row.me{justify-content:flex-end}
+.chat-bubble{max-width:75%;padding:8px 10px;border-radius:10px;background:#e8fff2}
+.chat-row.me .chat-bubble{background:#dbeafe}
+.chat-controls{display:flex;gap:10px;margin-top:10px}
+.chat-controls input{flex:1;padding:8px;border-radius:8px;border:1px solid #ddd}
+@media (max-width:900px){
+  .grid{grid-template-columns:1fr}
+  .hero{flex-direction:column}
+}

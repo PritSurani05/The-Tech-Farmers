@@ -1,0 +1,34 @@
+{
+  "en": {
+    "title": "Smart Agriculture Support",
+    "subtitle": "Mandi rates, weather advice and farmer tips — simple and effective.",
+    "view_mandi": "View Mandi Prices",
+    "check_weather": "Check Weather",
+    "at_glance": "At a glance",
+    "glance_1": "Mandi price visualization",
+    "glance_2": "Weather-based irrigation advice",
+    "glance_3": "Farmer-friendly knowledge hub",
+    "feature1": "Mandi Prices",
+    "feature1_desc": "Visual trends and quick search to pick best selling time & mandi",
+    "feature2": "Weather Advice",
+    "feature2_desc": "Irrigation suggestions based on weather data",
+    "feature3": "Farmer Connect",
+    "feature3_desc": "Ask quick farming questions — static advisor demo"
+  },
+  "hi": {
+    "title": "स्मार्ट कृषि सहायता",
+    "subtitle": "मंडी दरें, मौसम से सलाह और किसानों के टिप्स — सरल और प्रभावी।",
+    "view_mandi": "मंडी कीमतें देखें",
+    "check_weather": "मौसम देखें",
+    "at_glance": "एक नजर में",
+    "glance_1": "मंडी कीमतों का विज़ुअलाइजेशन",
+    "glance_2": "मौसम-आधारित सिंचाई सलाह",
+    "glance_3": "किसान-उपयोगी नॉलेज हब",
+    "feature1": "मंडी कीमतें",
+    "feature1_desc": "ट्रेंड और तेज़ खोज से बिक्री का सर्वोत्तम समय चुनें",
+    "feature2": "मौसम सलाह",
+    "feature2_desc": "मौसम डेटा के आधार पर सिंचाई सुझाव",
+    "feature3": "किसान कनेक्ट",
+    "feature3_desc": "त्वरित सवाल पूछें — स्टेटिक सलाहकार डेमो"
+  }
+}
